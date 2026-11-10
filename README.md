@@ -35,4 +35,4 @@ their assigned users.
 - Access Auditing
 - PowerShell Scripting
 
-[View Group Membership Audit Script]([scripts/Group-Membership-Audit.ps1](https://github.com/car7unechi/Microsoft-Entra-IAM-Home-Lab/blob/main/Scripts/Group-Membership-Audit.ps1))
+[View Group Membership Audit Script](Scripts/Group-Membership-Audit.ps1)
