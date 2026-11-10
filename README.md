@@ -1,17 +1,20 @@
-# Microsoft-Entra-IAM-Home-Lab
-Hands-on Microsoft Entra ID identity and access management lab demonstrating user provisioning, group management, and PowerShell-based access auditing.
-Project Overview
+# Microsoft Entra ID IAM Home Lab
 
-Lab Architecture
+## Project Overview
+Built a cloud-based identity and access management
+lab using Microsoft Entra ID and Microsoft Graph
+PowerShell to simulate enterprise user administration.
 
-Tools and Technologies
+## Technologies Used
+- Microsoft Entra ID
+- Microsoft Graph API
+- PowerShell 7
+- Microsoft Entra Security Groups
 
-User Provisioning
+## User Provisioning
+Created three fictional employees and configured
+department attributes, job titles, and employee IDs.
 
-Security Group Configuration
-
-Microsoft Graph PowerShell Integration
-
-Group Membership Audit
-
-Troubleshooting and Lessons Learned
+## Security Group Management
+Created IT, HR, and Finance security groups and
+assigned users according to their departments.
