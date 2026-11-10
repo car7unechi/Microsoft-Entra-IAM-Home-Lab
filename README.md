@@ -36,3 +36,26 @@ their assigned users.
 - PowerShell Scripting
 
 [View Group Membership Audit Script](Scripts/Group-Membership-Audit.ps1)
+
+
+## Troubleshooting: Microsoft Graph 403 Forbidden
+
+### Issue
+While querying Microsoft Entra ID users through PowerShell,
+I encountered a 403 Forbidden error.
+
+### Investigation
+- Inspected the Microsoft Graph authentication context.
+- Reviewed the requested API permission scopes.
+- Verified the tenant connection.
+- Tested authentication using the Microsoft Graph `/me` endpoint.
+
+### Resolution
+Reconnected to the intended Microsoft Entra tenant with
+the appropriate delegated Microsoft Graph permissions.
+
+### Validation
+Successfully retrieved directory users and security groups,
+then executed a PowerShell audit to verify departmental
+group memberships.
+
