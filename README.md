@@ -19,6 +19,10 @@ department attributes, job titles, and employee IDs.
 Created IT, HR, and Finance security groups and
 assigned users according to their departments.
 
+### Security Group Configuration
+
+![Security Groups](Screenshots/all_groups.png)
+
 
 ## PowerShell Group Membership Audit
 
